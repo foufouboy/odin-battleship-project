@@ -1,0 +1,33 @@
+{
+  "name": "odin-battleship-project",
+  "mode": "development",
+  "version": "1.0.0",
+  "description": "We gonna do a BATTLESHIP 😠",
+  "private": "true",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack", 
+    "watch": "jest --watch --verbose *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foufouboy/odin-battleship-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foufouboy/odin-battleship-project/issues"
+  },
+  "homepage": "https://github.com/foufouboy/odin-battleship-project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "css-loader": "^6.7.3",
+    "jest": "^29.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
